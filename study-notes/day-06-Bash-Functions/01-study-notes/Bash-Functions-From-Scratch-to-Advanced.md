@@ -275,6 +275,9 @@ check_number()
     fi
 }
 ```
+["  if [[ "$1" =~ ^ [0-9]+$ ]]; then  " EXPLANATION](Bash-Regex-Digits-Only-Validation.md)
+
+["  if [[ "$1" =~ ^ [0-9]+$ ]]; then  " EXPLANATION-URDU](Bash-Regex-Digits-Only-Validation-Roman-Urdu.md)
 
 | Command | Purpose |
 |---|---|

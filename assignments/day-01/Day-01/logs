@@ -1,0 +1,30 @@
+The current shell is /bin/bash
+The current running processes are:
+    PID TTY          TIME CMD
+    340 pts/0    00:00:00 bash
+   1081 pts/0    00:00:00 bash
+   1082 pts/0    00:00:00 ps
+The current bash version is: 5.3.9(1)-release
+the current user is ibrahim
+the users home directory is Commmands
+Linux
+the current directories path is /home/ibrahim/Linux/shell-scripting/assignments/day-01/Day-01
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Vagrant/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/M. Omar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/M. Omar/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+The current shell is /bin/bash
+
+The current running processes are:
+    PID TTY          TIME CMD
+    340 pts/0    00:00:00 bash
+   1169 pts/0    00:00:00 bash
+   1170 pts/0    00:00:00 ps
+
+The current bash version is: 5.3.9(1)-release
+
+the current user is ibrahim
+
+the users home directory is /home/ibrahim/Linux/shell-scripting/assignments/day-01/Day-01/ibrahim
+
+the current directories path is /home/ibrahim/Linux/shell-scripting/assignments/day-01/Day-01
+
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Vagrant/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/M. Omar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/M. Omar/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin

@@ -1,0 +1,8 @@
+Day 69 (Links)
+
+Links do not store data, theyre just a shortcut to the original file. Hard Links point to the same inode of the original file, so theyre not deleted if the original file is deleted, while Soft Links point to the actual file, so the soft link is useless if the original file is deleted. To tell which link it is, check the inode number of both the link and the original file, if theyre the same, then its a hard link, otherwise its a soft link. Hard links cant cross file systems, while soft links can.
+Hard links also have the same permissions.
+Soft links can point to directories. 
+To create a hard link:  ln file file.hl
+To create a soft link"  ln -s file file.sl (absolute path is always preferred for the original file when creating soft links)
+

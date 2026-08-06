@@ -1,0 +1,27 @@
+29 July (Urdu)
+
+FUNCTIONS
+Syntax
+
+function ()
+{
+command
+command
+}
+function
+
+The brackets () only come when youre defining the function, ie in the beginning, not when you call the function, ie in the end, the function name comes in the end to make the function active
+Linux keywords (Linux commands) cannot be used as the function name.
+The calling of the functions doesn't have to come right after the commands, you can call multiple functions together, by after finishing the commands of one and closing the curly bracket, then type the second function and then after closing its curly bracket write both the functions calling words in separate lines, the second one first and then the first functions calling word.
+If you add a argument to a function, then the arguments variable will come after the functions calling word, eg function "first argument."
+
+
+cat file.txt &>> output.txt (to append both stdout and stderr into the same file) (about the same as cat file.txt > output.txt 2>&1)
+cat file.txt >> output.txt 2>> error.txt (to append stderr and stdout to separate files)
+
+===========================================
+exec >> logs/stdout.log
+exec 2>> logs/stderr.log
+If these 2 lines are written at the start of a script after the shebang, then all output will go to the stdout.log file, while all error messages from that script will go to the stderr.log file.
+===========================================
+

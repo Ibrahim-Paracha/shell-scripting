@@ -1,0 +1,27 @@
+28 July (Urdu)
+
+Loops
+
+===========
+  Syntax
+===========
+
+for var in {1..5}
+do
+echo $var
+done
+
+if you need to do a numerical problem, you need double brackets `$(())` eg to get the table of 2:
+
+for var in {1..5}
+do
+echo "2 x $var = $(($var*2))"
+done
+
+OR
+
+for var in {1..5}
+do
+answer="$((2*var))"
+echo "2 x $var = $answer"
+done

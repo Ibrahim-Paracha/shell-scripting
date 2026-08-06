@@ -1,0 +1,13 @@
+22th July, Urdu
+
+If '' is used with the echo command, then the variable in it wont be expanded (wont be opened), while using "" expands it. '' takes everything in it literally, like $name will be printed as $name.
+
+bash -n script.sh is used for a dry run, to know if the script you're trying is correct or not, without actually executing the commands
+
+To make sure that a command only runs if the previous command was successful in a script, then put && at the end of the first line, like echo "no1" && in the first line, and echo "no2" in the second line, now for some reason if the first command isnt able to run, the second wont run either, and if you put || at the end of the second line, and add a third line, then if the previous lines were unable to run, then the thrid line will run, so if line 1 and 2 fail, line 3 will run
+
+`chage -d 0` this commands forces the user to change their password as soon as they login
+
+arguments are basically variables that you put in front of your script name and it is used to make your script interactive-less. Eg in the script if you have echo "Script Name: $0" in the first line, and echo "First Argument: $1" in the second, and echo "Second Argument: $2" in the third line, and you run this script with ./arg.sh apple banana, you will have the arg.sh in the script name, apple in the first argument and banana in the second
+
+To get the total number of arguments, use echo "no of args: $#", and to get all the arguments used in one line, echo "all arguments: $*"

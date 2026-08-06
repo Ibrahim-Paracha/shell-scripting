@@ -1,0 +1,7 @@
+July 30, (Urdu) Day 07
+
+If a script has a variable, and a function in that script has a variable with the same tag but different values, then the function variable will overwrite/shadow the scripts variable, unless you add the word `local` before the variable tag within the function, in that case the variable will only look within the function.
+
+echo "ibrahim ALL=(ALL) NOPASSWD:ALL" | tee /etc/sudoers.d/ibrahim (This command is used to give a user sudo permissions without asking for a password)
+
+/tmp folder is a folder that all users can access.

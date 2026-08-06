@@ -1,0 +1,39 @@
+5 Aug, Urdu
+
+VSC (Version Control System) was started so that all versions of your work dont have to be separate files, rather just one big file that you can access the previous versions from as well, git also has a vcs in Linux.
+There is a bit of a difference between the Linux Filesystem and Git VCS
+Both have the File names with the metadata, both can have files deleted, but only Git VCS can get the files restored.
+
+Type `code .` to open VSCode in the current directory, and type `explorer.exe .` to open file explorer in the current directory while using wsl.
+
+scp -r -i remote_user@ip:file_destination destination(where to copy the directory)     This command is used to copy directories from one system to another.
+
+\ is used in a command to go the next line
+
+first initialize your repo with `git init` (if git is installed on your machine, check with git --version), at first any new file is "untracked" which means that git is currently not tracking it, once you use `git add file` it becomes staged, as in git is considering it now. Now use `git commit -m "message"` to have it "tracked" and at this point you need to have git configured, like adding the git username and email of the commiter. Once the file is tracked, if you remove the file you can restore it with `git restore filename`
+
+If you want to connect your laptop to a remote GitHub server rather than local, then you can use either git clone or git pull to bring GitHub to the laptop, or git push to connect the laptop to GitHub. 
+Create a new repo on GitHub, copy its link (HTTP or SSH), now type `git clone link` (paste the link)
+Now to configure, `git config --global user.name "username"` , `git config --global user.email "email address"`, now go to the home directory, .ssh folder, then type `ssh-keygen`, then cat the public key, and copy the entire output and paste it into the SSH and GPG keys setting (Add new key).
+git remote set-url origin link (copy the ssh link from the green code button on github)
+git pull --rebase origin main (to pull from Github)
+git push origin main 
+If you make any changes in the GitHub repo on GitHub.com
+
+git log (to see all changes made)
+git config --global --list
+
+The README.md is like a manual.
+
+===================================================
+## TO COPY A FILE FROM A DIFFERENT SERVER
+
+`curl -fL -o bakar-key.pem https://raw.githubusercontent.com/kcommit/shell-scripting/main/bakar-key.pem` (This is used to download a file from a website, downloading a private key here for a AWS machine)
+`chmod 400 bakar-key.pem` (bakar-key.pem is the name of the key, private keys wont work with too open permissions)
+`ssh -i bakar-key.pem ubuntu@18.117.82.220` (optional if you want to enter the machine, ubuntu is the username and after @ is the public ip)
+` scp -r -i bakar-key.pem ubuntu@18.117.82.220:/home/ubuntu/shell-scripting /home/ibrahim` (after the ip is the location of the file we need to copy, and at the end is the location we want to copy the file to)
+(-i is used to enter with a private key, -r is used to copy directories)
+
+## TO COPY A FILE TO THE SERVER
+
+`scp -r -i bakar-key-pem /home/ibrahim/folder ubuntu@18.117.82.220:/home/ubuntu`(/home/ibrahim/folder is the path of the folder we want to copy, and after that is the user, ip and the path we want to copy the folder to)

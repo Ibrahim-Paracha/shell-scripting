@@ -1,0 +1,25 @@
+July 23 Urdu
+
+if [[ condition ]]; then
+    command
+else
+    command
+fi
+
+=========================
+
+read -p -r "Enter your name: " name
+
+if [[ "$name" = Ibrahim ]]; then
+echo "good"
+elif [[ "$name" = Omar ]]; then
+echo "great"
+else
+echo "welcome"
+fi
+
+=========================
+
+`script` command is used to record everything you do until you type exit, for example you type `script file.txt` now whichever command you type will be recorded into file.txt until you type exit.
+
+if you want to have an empty line in the result, then just type `echo` and this should just print an empty line.

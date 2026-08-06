@@ -1,0 +1,3 @@
+Day 70 (Tee)
+
+If you use the tee command with the pipeline, then that overwrites the file, if you want to append add the -a flag.

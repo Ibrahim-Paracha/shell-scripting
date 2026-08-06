@@ -1,0 +1,7 @@
+20 July (Urdu)
+
+the bash command can run a regular file without permissions, unlike using the ./file.sh, which needs permissions.
+
+to get numbers at the start of lines instead of ~, run `vim ~/.vimrc`, then type `syntax on`, and in the second line type `set number` then after exiting, type vim -c 'source ~/.vimrc' -c 'qa'
+
+date +%F to get just the date

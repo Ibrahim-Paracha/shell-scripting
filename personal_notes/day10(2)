@@ -1,0 +1,27 @@
+#!/bin/bash
+
+while true
+do
+read -r -p "Enter start, stop or quit: " action
+
+case "$action" in
+
+start)
+echo "Starting..."
+;;
+
+stop)
+echo "Stopping..."
+;;
+
+quit)
+echo "Goodbye"
+break
+;;
+
+*)
+echo "Invalid action" >&2
+;;
+
+esac
+done

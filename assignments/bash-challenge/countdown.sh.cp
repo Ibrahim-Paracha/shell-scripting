@@ -17,7 +17,8 @@ fi
 while [ $num -ge 0 ]
 do
 echo "$num"
-num=$(( num - 1 ))
+num=$(( num + 1 ))
+sleep 1
 done
 
 echo "Done!"

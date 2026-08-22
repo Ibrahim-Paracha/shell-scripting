@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# CASE
+
+read -r -p "Enter y or n: " answer
+
+case "$answer" in
+y|Y|Yes|YES|yes)
+	echo "You have selected yes"
+	;;
+
+n|N|no|NO|No)
+
+# Using the pipe allows you to enter multiple options without having to enter multiple patterns for the same command
+
+	echo "You have selected no"
+	;;
+
+*)
+	echo "Invalid answer" 1>&2  # This will ensure that this messages goes to STDERR, and returns the command as an error rather than a success
+	exit 1
+	;;
+
+esac
+
+

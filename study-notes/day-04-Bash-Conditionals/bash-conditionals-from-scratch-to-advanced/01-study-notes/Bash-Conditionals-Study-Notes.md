@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEAD:study-notes/day-04-Bash-Conditionals/bash-conditionals-from-scratch-to-advanced/01-study-notes/Bash-Conditionals-From-Scratch-to-Advanced-Study-Notes.md
 # Bash Conditionals — From Scratch to Advanced
 
 Conditionals allow a Bash script to test a situation, make a decision, and run the correct commands.
@@ -2440,4 +2440,4 @@ Non-zero status  = false, failed, or another defined condition
 ```
 
 Start with simple `if/else` decisions. Add validation, file tests, logical operators, patterns, and command conditions only after the basic flow is clear.
->>>>>>> 2fd91a725939fce85dba0fc686e9096243ff475e
+>>>>>>> 2fd91a725939fce85dba0fc686e9096243ff475e:study-notes/day-04-Bash-Conditionals/bash-conditionals-from-scratch-to-advanced/01-study-notes/Bash-Conditionals-Study-Notes.md

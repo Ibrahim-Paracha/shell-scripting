@@ -4,9 +4,14 @@ service="nginx"
 
 read -r -p "Do you wish to check the status of $service? (y/n)" ans 
 
-case "$ans" in # case is like a drop down menu, you can choose the options to select an answer from
+case "$ans" in # case is used in case the user enters something similar to the given options
 y|Y)
-systemctl is-active --quiet "$service"
+if ! systemctl is-active --quiet "$service"; 
+then
+echo "This service is not active"
+else
+echo "This service is active"
+fi
 ;;
 
 n|N)
